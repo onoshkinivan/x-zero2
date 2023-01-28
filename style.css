@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.winner {
+    background-color: grey;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: green;
+    position: relative;
+}
+
+.close {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    display: none;
+}
+
+.winner__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    position: absolute;
+}
+
+.field {
+    border-collapse: collapse;
+}
+
+td {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 60px;
+    border-radius: 5px;
+    background-color: grey;
+}
