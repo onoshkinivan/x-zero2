@@ -32,14 +32,14 @@
     width: 30px;
     cursor: pointer;
     position: absolute;
-    display: none;
+    top: 15px;
+    right: 15px;
 }
 
 .winner__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: none;
     position: absolute;
 }
 
